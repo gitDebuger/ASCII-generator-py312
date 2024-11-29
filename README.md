@@ -113,7 +113,11 @@ By running the sript **img2img_color.py** or **img2img.py** with different value
 
 ## Requirements
 
-* **python 3.6**
-* **cv2**
-* **PIL** 
-* **numpy**
+Run this project in Python 3.12.
+
+Then install requirements:
+
+```bash
+pip install opencv-python pillow numpy
+```
+
