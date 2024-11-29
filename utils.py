@@ -14,7 +14,7 @@ def sort_chars(char_list, font, language):
     elif language == "russian":
         bbox = font.getbbox("A")
     char_width = bbox[2] - bbox[0]
-    char_height = bbox[3] - bbox[1]
+    char_height = bbox[3]
     num_chars = min(len(char_list), 100)
     out_width = char_width * len(char_list)
     out_height = char_height
